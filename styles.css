@@ -65,3 +65,38 @@ footer {
     margin-top: 40px;
     font-size: 0.9rem;
 }
+
+/* Page images for all content pages */
+.page-image {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 25px auto;
+    border-radius: 10px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #e0e0e0;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--secondary);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
